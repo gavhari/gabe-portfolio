@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <base href="/gabe-portfolio/" />
+<link rel="modulepreload" href="/gabe-portfolio/gabe-portfolio-7a557e3db48777b9.js" crossorigin="anonymous" integrity="sha384-qcCqa36MrrQu8c8zgC15/rYYvQFY8ks/R8Ggzhh130zFoaULTM1UnkbtLnBAj89h"><link rel="preload" href="/gabe-portfolio/gabe-portfolio-7a557e3db48777b9_bg.wasm" crossorigin="anonymous" integrity="sha384-7hwWah9XgL/mTZFI5tPuYns4Rci0LRdkH4/X9NkUwLQWZV0Uo4kTmOYwLcZoQesO" as="fetch" type="application/wasm"></head>
+<body>
+
+<script type="module">
+import init, * as bindings from '/gabe-portfolio/gabe-portfolio-7a557e3db48777b9.js';
+const wasm = await init({ module_or_path: '/gabe-portfolio/gabe-portfolio-7a557e3db48777b9_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
