@@ -45,7 +45,7 @@ pub struct SkillGroup {
 }
 
 pub const PROFILE: Profile = Profile {
-    name: "Gabe Vahari", // TODO: confirm full name
+    name: "Gabe Siringoringo", // TODO: confirm full name
     role: "Software Engineer",
     tagline: "I build fast, reliable systems for the web — from the browser down to the bytes.",
     status: "Currently open to new opportunities",
