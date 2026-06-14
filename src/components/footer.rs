@@ -10,7 +10,7 @@ pub fn footer() -> Html {
                 { "source ↗" }
             </a>
             <span class="sep">{ "·" }</span>
-            <span>{ "© 2026 Gabe Vahari" }</span>
+            <span>{ "© 2026 Gabe Siringoringo" }</span>
         </footer>
     }
 }
