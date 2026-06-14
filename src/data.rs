@@ -50,7 +50,7 @@ pub const PROFILE: Profile = Profile {
     tagline: "ERP developer by day, building fast systems in Rust by night.",
     status: "Currently open to new opportunities",
     email: "gaberingo12@gmail.com",
-    resume_url: Some("Resume_Gabe_Siringoringo.pdf"),
+    resume_url: Some("assets/Resume_Gabe_Siringoringo.pdf"),
     about: &[
         "I work as an ERP developer (Odoo) — building custom modules, fixing bugs, and migrating clients across versions. Odoo's performance characteristics got me curious about what an ERP built in Rust could look like — a language where correctness is enforced by the compiler and speed is the default.",
         "Outside ERP work, I enjoy building things in Rust — automation tooling, web systems, and a marketplace for local Indonesian products with a Python/LangChain AI layer planned on top.",
